@@ -13,14 +13,15 @@
   
   </head>
 
-  <body>
-      <nav class="navbar navbar-light bg-light">
-        <div class="text-center">
-          <%= link_to 'Back to home', controller: 'home' %>
+  <body style="background-image: url('https://wallpaperplay.com/walls/full/b/3/7/329976.jpg'); background-repeat: no-repeat;">
+      <nav class="navbar navbar-light" style="background-color: #e3f2fd; opacity: 0.65;" >
+        <div class="text-center" >
+          <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/back-arrow-36-921413.png" height="20" width="20">
+          <%= link_to 'Back to home', controller: 'home', style: 'font-size:30px' %>
         </div>
       </nav>
 
-      <div class="container">
+      <div class="container col-9" style="background-color: #c4dbff; margin-top: 50px; opacity: 0.8;">
          <%= yield %>
       </div>
 
